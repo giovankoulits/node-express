@@ -7,6 +7,7 @@ const logEvents = require('./logEvents');
 const EventEmitter = require('events');
 
 class Emitter extends EventEmitter {}
+
 const myEmitter = new Emitter();
 myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 
@@ -86,7 +87,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(301, { Location: '/new-page.html' });
         res.end();
         break;
-      case 'old-page.html':
+      case 'www-page.html':
         res.writeHead(301, { Location: '/' });
         res.end();
         break;

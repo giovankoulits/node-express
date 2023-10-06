@@ -1,0 +1,2 @@
+20231006	20:30:00	34e1ab87-a4f4-4158-a054-2b8612420f26	Error: Not allowed by CORS
+20231006	21:44:22	08c0f419-216c-489b-928e-9b8cc8f4c354	Error: Not allowed by CORS
