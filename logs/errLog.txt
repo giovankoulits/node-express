@@ -1,2 +1,5 @@
 20231006	20:30:00	34e1ab87-a4f4-4158-a054-2b8612420f26	Error: Not allowed by CORS
 20231006	21:44:22	08c0f419-216c-489b-928e-9b8cc8f4c354	Error: Not allowed by CORS
+20231008	15:36:44	b70c486e-f7fc-4306-8ee0-52774fe9dc10	TypeError: Cannot read properties of undefined (reading 'id')
+20231008	16:48:42	4de354c4-3c7b-42ff-ae85-7f484a73b052	ReferenceError: rew is not defined
+20231008	18:45:18	0676075b-5fc5-4427-a5d5-33ea5ae7b2c5	SyntaxError: Unexpected token ' in JSON at position 2
