@@ -8,7 +8,10 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const corsOptions = require('./config/corsOptions');
+const credentials = require('./middleware/credentials');
+
 app.use(logger);
+app.use(credentials);
 
 // Cross Origin Resource Sharing
 
@@ -31,6 +34,7 @@ app.use('/', require('./routes/root'));
 app.use('/register', require('./routes/register'));
 app.use('/auth', require('./routes/auth'));
 app.use('/refresh', require('./routes/refresh'));
+app.use('/logout', require('./routes/logout'));
 app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
 
